@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100, 300,400, 500, 700');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #F4F6F9;
+}
+#content-area {
+	margin-left: 280px;
+	padding: 15px;
+}
+table {
+	width: 100%
+}
+
+table thead {
+	background: #EAEDF3;
+}
+
+table thead th {
+	font-size: 0.8rem;
+	padding: 20px 10px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: left;
+	color: #6C7882;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-top-left: 5px;
+	-moz-border-radius-top-right: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+table tbody {
+	background: #fff;
+	font-size: 0.8rem;
+}
+
+table tbody td {
+	padding: 20px 10px;
+	color: #6C7882 
+}
+
+#sidemenu {
+	background: black;
+	width: 280px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	height: 510px;
+	#border-radius: 0px 0px 5px 5px;
+}
+
+#sidemenu nav {
+	padding-top: 100px;
+}
+
+#sidemenu nav a {
+	display: block;
+	color: #F48320;
+	text-decoration: none;
+	padding: 15px 30px;
+	font-weight: 300;
+	transition: all 0.3s ease-in-out;
+}
+
+#sidemenu nav a:hover {
+	background: #282639;
+	border-left: 5px solid #92CF48;
+	padding: 15px 30px 15px 25px;
+}
+
+#sidemenu nav a:hover .fa{
+	color: #92CF48;
+} 
+
+#sidemenu nav a .fa  {
+	color: #EAEDF3;
+	font-size: 1.4rem;
+	margin-right: 0.8rem;
+	display: inline-block;
+	width: 30px;
+	position: relative;
+	top: 2px;
+}
+
+.active {
+	background: #282639;
+	border-left: 5px solid #92CF48;
+	padding: 15px 30px 15px 25px;
+}
+
+#sidemenu nav a.active .fa{
+	color: #92CF48;
+}
+
+.btn{
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2;
+	background-color: transparent;
+	color: #F48320;
+	margin-right: 15px;
+	border: 1px solid #bf55ec;
+}
+
+#content-area form table tr td input {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	outline: none;
+	font-size: 15px;
+}
